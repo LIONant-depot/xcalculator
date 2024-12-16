@@ -3,12 +3,10 @@
 ################################################################################
 
 /build/vs.2022/.vs/test-xcalculator
-/build/vs.2022/test-xcalculator/x64/Debug
 /build/vs.2022/x64/Debug
 /build/vs.2022/Debug
 /build/vs.2022/Release
 /build/vs.2022/test-xcalculator/Debug
 /build/vs.2022/test-xcalculator/Release
-/build/vs.2022/test-xcalculator/x64/Release/test-xcalculator.tlog
-/build/vs.2022/test-xcalculator/x64/Release
+/build/vs.2022/test-xcalculator/x64
 /build/vs.2022/x64/Release

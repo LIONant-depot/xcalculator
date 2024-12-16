@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\..\source\xcalculator.cpp">
+      <Filter>xcalculator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="xcalculator">
+      <UniqueIdentifier>{20253acf-c590-420a-9115-e805320572e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\xcalculator.h">
+      <Filter>xcalculator</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
