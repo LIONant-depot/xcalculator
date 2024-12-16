@@ -99,7 +99,6 @@ xcalculator::tokenize xcalculator::Tokenize( const std::string_view Expression) 
     if( Expression.empty() ) return {};
 
     // Let's tokenize the input string
-    tokenize    Output;
     tokenize    Input;
 
     //
@@ -179,6 +178,7 @@ xcalculator::tokenize xcalculator::Tokenize( const std::string_view Expression) 
     >;
 
     std::stack<operator_token>  Operators;
+    tokenize                    Output;
     {
         Output.reserve(Input.size());
 
