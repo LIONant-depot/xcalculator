@@ -45,6 +45,7 @@ for (double i = 0; i < 10000; i++)
 * Strong typed tokens
 * Minimize memory usage
 * No dependencies
+* No exceptions
 * Minimalistic API
 * Custom functions
 * Custom variables
