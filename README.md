@@ -1,8 +1,11 @@
+<img src="https://i.imgur.com/0fxo7vo.jpeg" align="right" width="180px" />
+
+
 # xcalculator
 A simple C++ 20 class used to compute an expression, code base on [asl-calculator](https://github.com/aslze/asl-calculator)
 
 **"A math expression parser and evaluator"**
-
+<br><img src="https://i.imgur.com/9a5d2ee.png" align="right" width="150px" />
 This class allows evaluating math expressions expressed as strings, including named variables and
 functions. It implements the [Shunting-yard_algorithm](https://en.wikipedia.org/wiki/Shunting-yard_algorithm).
 
