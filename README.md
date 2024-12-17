@@ -12,6 +12,10 @@ functions. It implements the [Shunting-yard_algorithm](https://en.wikipedia.org/
 One of the goals of the class is to be forgiving allowing badly formatted expreesion to be evaluated.
 So that users can make some mistakes and you may still get something useful out of it...
 
+<br>
+<br>
+<br>
+
 ```cpp
 xcalculator Calc;
 double y = Calc.setVar("i", 25.5).Evaluate("-3.5*cos(i*5)+pi*(-2+sqrt(i*pi^2))/3");
